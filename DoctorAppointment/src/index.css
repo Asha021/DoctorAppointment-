@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,100..900;1,100..900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer base{
+   font-family{
+    @apply font-sans;
+   }
+   h1{
+    @apply text-5xl;
+   }
+   button{
+    @apply border-gray-400 border-2;
+    @apply px-10;
+   }
+}
+
+@layer components{
+    .btnOne{
+        @apply p-3  text-white;
+        @apply bg-blue-500;
+        @apply mb-2;
+        @apply mt-14 ml-14;
+
+    }
+    .HlastFirst{
+        @apply hover:text-gray-900  flex justify-evenly flex-col h-20;
+    }
+    .HlastSec{
+        @apply items-center flex justify-center;
+    }
+    .Hother{
+        @apply  hover:text-gray-950 cursor-pointer hover:shadow-md hover:underline transition-shadow translate-x-2 duration-700 text-left indent-3;
+    }
+    .nav{
+        @apply block md:inline-block md:hover:border-blue-800 border-transparent border-b-2 md:hover:text-blue-800 text-white md:text-gray-900  hover:font-semibold hover:md:font-normal transition-colors duration-300 px-4 py-2;
+    }
+    .LoginLabel{
+        @apply text-sm font-medium text-gray-700;
+    }
+    .LoginInput{
+        @apply w-full mt-1 px-4 py-2 border rounded-lg shadow-sm focus:ring-2 focus:ring-blue-500 focus:outline-none;
+    }
+    .button{
+        @apply w-full py-2 bg-blue-500 text-white rounded-md hover:bg-blue-600;
+    }
+    .scale{
+        @apply  hover:scale-105 transition-transform duration-500 hover:shadow-lg;
+    }
+}
