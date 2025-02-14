@@ -1,1 +1,10 @@
-/node_modules
+# Node.js dependencies
+node_modules/
+.bin/
+
+# Environment variables
+.env
+
+# Yarn-related files
+.yarn/
+.yarnrc.yml

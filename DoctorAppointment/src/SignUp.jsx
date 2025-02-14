@@ -36,7 +36,7 @@ function SignUp() {
       const  data = await result.json();
       console.log(data) 
       if(data){
-        navigate('/loginch')
+        navigate('/login')
       }
     }
    
