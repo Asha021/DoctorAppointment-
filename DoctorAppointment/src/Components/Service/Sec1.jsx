@@ -36,7 +36,7 @@ const Sec1 = () => {
   ];
 
   return (
-    <div className="mt-16 bg-[url('onlineConsult.png')] bg-cover bg-no-repeat brightness-100  px-4 lg:px-20">
+    <div className="mt-16 bg-[url('/onlineConsult.png')] bg-cover bg-no-repeat brightness-100  px-4 lg:px-20">
       <h1 className="text-center text-3xl font-bold py-10"></h1>
       <div className="grid  animate-slideDown  h-auto w-auto grid-cols-1 shadow-sm md:grid-cols-2 lg:grid-cols-4 gap-8 pb-24">
         {items.map((item, index) => (

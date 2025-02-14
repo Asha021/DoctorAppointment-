@@ -225,11 +225,11 @@ const ConsultDoctor = () => {
   };
 
   return (
-    <div className="flex justify-center mt-32">
-      <div className="grid grid-cols-2 gap-4 w-auto bg-gray-100 p-10 rounded-lg shadow-lg">
+    <div className="flex justify-center mt-32 ">
+      <div className="grid md:grid-cols-2 mx-auto  gap-4  bg-gray-100 md:p-10 p-4 rounded-lg shadow-lg ">
         {/* Left Section - Form */}
-        <div className="space-y-4">
-          <h2 className="text-2xl font-bold">Consult with a Doctor</h2>
+        <div className="space-y-4 ">
+          <h2 className="text-2xl  font-bold">Consult with a Doctor</h2>
 
           <div>
             <label htmlFor="symptom" className="block text-sm font-medium">
@@ -293,7 +293,7 @@ const ConsultDoctor = () => {
         </div>
 
         {/* Right Section - Image */}
-        <div className="md:flex md:justify-center hidden md:block items-center border-l-2">
+        <div className="md:flex hidden md:block md:justify-center items-center border-l-2">
           <img
             src="doctors.webp"
             alt="Doctor Consultation"

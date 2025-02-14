@@ -26,7 +26,7 @@ const Specialties = () => {
 
   return (
     <div className="mx-5 mt-14 font-sans">
-      <div className="md:mx-20">
+      <div className="md:mx-20 ">
         {/* Header */}
         <div
           className="md:flex justify-between items-center p-4 rounded-lg"

@@ -36,18 +36,18 @@ const Commant = () => {
     }
   return (
      <div>
-    <div className='mx-3 mt-7 justify-evenly flex font-sans w-[450px]'>
+    <div className='md:mx-3 mt-7 justify-evenly flex font-sans md:w-[450px]'>
         <p onClick={PrvsSlide} className='m-0  items-center flex p-0 '><FaAngleLeft color='gray' size={25} className='flex justify-center' /></p>
         <div className='mx-0' >
-        <div className='flex mx-5 mt-3' >
+        <div className='flex md:mx-5 mt-3' >
         <FaStar color='Green' />
         <FaStar color='Green' />
         <FaStar color='Green' />
         <FaStar color='Green' />
         <FaStar color='Green' />
         </div>
-        <div className='m-5'>{array[slide]}</div>
-        <div  className='m-5 flex gap-2' >
+        <div className='m-5 '>{array[slide]}</div>
+        <div  className='m-5 w-fit flex gap-2' >
             <p><FaUserAlt size={20} /></p>
             <p>{User[user]}</p>
         </div>

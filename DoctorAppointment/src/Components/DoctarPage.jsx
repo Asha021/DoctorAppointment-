@@ -88,7 +88,7 @@ const DoctorPage = () => {
   }, [category, symptom, searchTerm, clinicSearch]);
 
   return (
-    <div className="mx-8 md:mx-20 lg:mx-40 justify-center mt-8 items-center bg-gray-100 py-8">
+    <div className="mx-8 md:mx-20 lg:mx-40 justify-center mt-8 items-center py-8">
       {/* header for doctar count */}
       <div className="bg-white py-3">
         <h2 className="text-blue-500  text-2xl py-2 font-semibold">

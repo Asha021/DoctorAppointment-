@@ -38,7 +38,7 @@ const OnlineBenefit = () => {
   ];
 
   return (
-    <div className="px-6 md:px-20 py-10">
+    <div className="px-6 border-4 md:px-20 py-10">
       <h1 className="text-3xl font-bold text-center mb-10 ">
       Benefits of Online Doctor Consultation
       </h1>

@@ -41,8 +41,8 @@ const ClinicAskedQ = () => {
     
       return (
         <div className="min-h-screen pb-20 bg-gray-100">
-            <div className=" mx-20 ">
-          <h1 className="text-center text-3xl  font-bold py-10">
+            <div className=" md:mx-20 mx-5 ">
+          <h1 className="text-center md:text-3xl text-2xl  font-bold py-10">
             Frequently Asked Questions
           </h1>
           <div className="space-y-6">

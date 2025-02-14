@@ -38,9 +38,9 @@ const Benefits = () => {
 
   return (
     <div className=" pt-14 mt-14 font-sans">
-      <div className="mx-20">
+      <div className="md:mx-20 mx-5">
       {/* Statistics Section */}
-      <div className="grid grid-cols-2 pb-10  sm:grid-cols-4 gap-0 text-center mb-5">
+      <div className="grid grid-cols-1 pb-10  sm:grid-cols-2 md:grid-cols-4 gap-0 text-center mb-5">
         {statsData.map((statItem, index) => (
           <div key={index} className="bg-gray-800  p-6   shadow-sm">
             <p className="text-2xl animate-slideDownX font-bold text-white">{statItem.stat}</p>
@@ -49,7 +49,7 @@ const Benefits = () => {
         ))}
       </div>
 
-      <div className="text-4xl text-gray-800 font-semibold pb-5">Benefits of Online Consultation</div>
+      <div className="md:text-4xl text-3xl text-gray-800 font-semibold pb-5">Benefits of Online Consultation</div>
       <div className="grid grid-cols-1 sm:grid-cols-2 pb-20 gap-6">
         {benefitsData.map((benefit, index) => (
           <div

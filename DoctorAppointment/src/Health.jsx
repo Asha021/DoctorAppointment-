@@ -41,12 +41,12 @@ const Health = () => {
   },[heathField])
 
   return (
-    <div className=" pt-10  mt-14 font-sans">
-      <div className="mx-20 ">
+    <div className=" pt-10 mt-14 font-sans">
+      <div className="md:mx-20 mx-5">
         {/* Header Section */}
         <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center mb-8">
           <div>
-            <p className="text-3xl font-bold text-gray-800">
+            <p className="md:text-3xl text-2xl font-bold text-gray-800">
               Common Health Concerns
             </p>
             <p className="text-lg text-gray-600">

@@ -44,9 +44,9 @@ const Nav = () => {
     <div className="bg-white fixed z-50 top-0 w-full text-gray-700 border-b-2 text-lg">
       <div className="container flex mx-7 justify-between items-center   py-2 w-full">
         {/* Logo and Branding */}
-        <div className="flex items-center m-0">
+        <div className="flex  items-center  m-0">
           <img src="logo.png" alt="logo" className="w-12 h-12" />
-          <div className="text-2xl font-sans font-semibold text-blue-900 ml-2">
+          <div className="text-2xl font-sans  font-semibold text-blue-900 ml-2">
             QUICK SLOT
           </div>
         </div>
@@ -150,7 +150,7 @@ const Nav = () => {
           <div className="md:hidden lg:flex-0">
             <button
               onClick={toggleMenu}
-              className="text-blue-900 border-none text-end size-10 font-extrabold text-3xl focus:outline-none"
+              className="text-blue-900 w-fit  items-end text-end size-10 font-extrabold text-3xl focus:outline-none"
             >
               {menuOpen ? "✕" : "☰"}
             </button>
