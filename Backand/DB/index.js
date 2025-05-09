@@ -9,9 +9,9 @@ require('dotenv').config()
 
 //Connect DataBase
 const mongoose = require('mongoose');
-
+// console.log("MongoDB URI:", process.env.MONGO_URI);
 const db = async() =>{
-    await mongoose.connect(process.env.MONGO_URL)
+    await mongoose.connect(process.env.MONGO_URI)
     console.warn("connected")
 }
 
@@ -48,6 +48,6 @@ app.post('/contactus',async(req,resp)=>{
     const result = await data.save();
     resp.send(result)
 })
-const PORT = process.env.PORT 
 
+const PORT = process.env.PORT 
 app.listen(PORT)
