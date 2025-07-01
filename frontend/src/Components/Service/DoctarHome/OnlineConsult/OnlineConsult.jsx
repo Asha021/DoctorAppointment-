@@ -1,6 +1,6 @@
 import React from 'react'
 import Consult1 from './Consult1'
-import OnlineBenefit from './onlineBenefit'
+import OnlineBenefit from './OnlineBenefit'
 import Benefits from '../../../../Benefits'
 
 const OnlineConsult = () => {

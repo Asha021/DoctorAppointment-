@@ -1,6 +1,6 @@
 import React from 'react'
 import { useNavigate } from 'react-router-dom';
-import OnlineBenefit from './onlineBenefit';
+import OnlineBenefit from './OnlineBenefit';
 
 const Consult1 = () => {
     const navigate = useNavigate()
